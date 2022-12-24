@@ -14,4 +14,7 @@ const checkLetters = (str) => {
 
 const filterSheep = sheep.filter((item) => item.color === 'rojo' && checkLetters(item.name));
 
+//
+// && checkLetters(item.name)
+
 console.log(filterSheep);
